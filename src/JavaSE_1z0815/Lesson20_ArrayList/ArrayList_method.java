@@ -27,6 +27,7 @@ public class ArrayList_method {
         ar_sb.remove(new StringBuilder("fdrea")); //sb1.equals(sb2) = sb1==sb2 ---> false
         System.out.println(ar_sb.toString());
 
+        System.out.println("Git");
     }
 
 }
