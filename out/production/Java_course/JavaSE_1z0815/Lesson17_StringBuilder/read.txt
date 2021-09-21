@@ -1,0 +1,25 @@
+    StringBuilder is mutable
+    Такой вид строк используется, когда необходимо экономнее расходовать память. По своей сути StringBuilder является mutable(изменяемым)
+, и при применении к такой строке методов не создается новый объект, а изменяется существующий, что упрощает работу garbage collector'a.
+Это свойство обеспечивается отсутствием non-modifier final у массива символов char.
+
+    Create StringBuilder
+    StringBuilder находится в java.lang, который импортируется по умолчанию, поэтому можно использовать сокращенное название класса.
+Для создания объекта применяются четыре конструктора(слайд):
+        1) StringBuilder(). Строка с вместимостью(capacity) 16 символов;
+        2) StringBuilder(String s). В таком случае capacity = s.length() + 16;
+        3) StringBuilder(int capacity). Задаётся своё значение capacity;
+        4) StringBuilder(StringBuilder sb).
+    * Capacity динамически изменяемая величина. Так, при добавлении строку существующей строке capacity расширяется
+
+    Methods(скриншот)
+    * в методе replace(int beginIndex, int endIndex, String s) сам endIndex не учитывается.
+
+    Equals
+    В реализации StringBuilder'a equals() не перезаписан, поэтому эквивалентен оператору ==.
+
+    StringBuffer
+    Данный класса не сильно отличается от ранее изученного, применяется в многопоточном программировании.
+
+    String create
+    String имеет еще два конструктора(смотри String_create_2.java и скриншоты).

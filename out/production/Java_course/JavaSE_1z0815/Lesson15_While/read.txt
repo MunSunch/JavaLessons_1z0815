@@ -1,0 +1,15 @@
+    Циклы while и do-while
+    Данный цикл применяется когда неясно сколько итерация требуется совершить. Синтаксис такой:
+                                while(condition){
+                                    expression1;
+                                    expression2;
+                                    ...;
+                                }
+    Цикл будет выполнять код, пока condition выдает true. Заранее выставленный false в condition или выражение, например, 5<1,
+воспринимается компилятором как unreachable statement (Unreachable_statement.java).
+    Цикл do-while немного отличается от предыдущего: инструкции хотя бы раз выполнятся.
+                                do {
+                                    expression1;
+                                    expression2;
+                                    ...
+                                } while(condition);
