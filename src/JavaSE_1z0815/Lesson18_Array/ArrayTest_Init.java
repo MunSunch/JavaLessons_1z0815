@@ -14,9 +14,8 @@ public class ArrayTest_Init {
 
         int[] array_2 = new int[5];
         //Динамическая
-        for (int i=0; i<array_2.length; i++){
+        for (int i=0; i<array_2.length; i++)
             array_2[i] = i;
-        }
 
         //Динамическая инициализация двумерного массива с одномерными массивами различной длины
         int[][] array = new int[3][];
