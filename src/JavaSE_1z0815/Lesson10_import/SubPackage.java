@@ -1,4 +1,4 @@
-package JavaSE_1z0815.Lesson10;
+package JavaSE_1z0815.Lesson10_import;
 // Получим доступ к классу S из подпакета SubPackage пакета Chapter6 Homework
 import JavaSE_1z0815.HomeWork.Lesson6.SubPackage.S;
 

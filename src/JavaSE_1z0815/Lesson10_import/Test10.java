@@ -1,6 +1,6 @@
-package JavaSE_1z0815.Lesson10;
-//import JavaSE_1z0815.Chapter9.Car;
-//import JavaSE_1z0815.Chapter8.Car; //    При этом импорт из разных пакетов классов с одинаковыми
+package JavaSE_1z0815.Lesson10_import;
+//import JavaSE_1z0815.Lesson9.Car;
+//import JavaSE_1z0815.Lesson8.Car; //    При этом импорт из разных пакетов классов с одинаковыми
 //    идентификаторами вызывает ошибку компиляции.
 // Импорт всех классов из пакета
 
